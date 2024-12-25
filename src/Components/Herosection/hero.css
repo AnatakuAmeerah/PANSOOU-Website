@@ -1,0 +1,498 @@
+.bg-grid{
+    background-image: url('/src/assets/Gridlayers 1.svg');
+    background-size: contain;
+    background-position: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    margin-top: -4.8rem;
+
+}
+.cta{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 6rem;
+  
+  
+}
+.cta h1{
+    color: #1b6f1b;
+    font-size: 62px;
+    font-family: Gilroy-Bold;
+}
+.cta h3{
+    font-family: Gilroy-Medium;
+}
+.about-us{
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 5rem;
+}
+.about-text{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Regular;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.msg-section{
+    /* background-color: #3d853db2; */
+    background-color: #1b6f1b98;
+    padding-bottom: 4rem;
+}
+.msg-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin: 1rem auto;
+    gap: 2rem;
+    padding: 3rem 2rem 3rem 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.msg-box p{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin-bottom: -1.5rem;
+}
+.your-voice{
+    text-align: center;
+    font-family: Gilroy-Medium ;
+    font-size: 36px;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 7rem;
+}
+.your-message{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Gilroy-Regular;
+}
+input{
+    /* border-top: 0;
+    border-left: 0;
+    border-right: 0; */
+    /* background-color:transparent ; */
+    background-color: #1b6f1b1a;
+    border-bottom-width: 4px;
+    font-family: Gilroy-Regular;
+    outline: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    font-size: 17px;
+    border-radius: 0.4rem;
+    border: none;
+}
+textarea{
+    border-width: 4px;
+    font-family: Gilroy-Regular;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    /* border-left: 0;
+    border-right: 0;
+    border-top: 0; */
+    background-color: #1b6f1b1a;
+    border-radius: 0.4rem;
+}
+.msg-box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #1b6f1b;
+    border-radius: 1rem;
+    border: none;
+    font-family:Gilroy-Medium ;
+    font-size: 19px;
+    color: white;
+}
+.msg-box button:hover{
+    background-color: #134b13;
+}
+.msg-box button:active{
+        transform: translateY(4px);
+}
+.pdf-section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left:10rem ;
+    margin-right:10rem ;
+    
+}
+.pdf-section h4{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+}
+.pdf-section p{
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+.pdf-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    /* background-color:#0a15db7a ; */
+  
+
+}
+a{
+    text-decoration: none;
+}
+.pdf{
+    width: 14rem;
+    height:14rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-image: url('/src/assets/Gridlayers 1.svg');
+    /* background-color: rgba(77, 77, 245, 0.1); */
+    background-color: #1b6f1b1a;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdf:hover{
+    transform: translateY(-4px);
+}
+.pdf p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+    color: white;
+    /* border:  1px solid black; */
+    border-radius: 0.4rem;
+    background-color: #1b6f1b;
+    width: 70%;
+    height: 50%;
+}
+.pdf p:hover{
+    background-color: #134b13;
+}
+.faq{
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    margin-top: 4rem;
+}
+details {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px 40px 20px 40px;
+    width: 55%;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    background-color: transparent;
+
+
+}
+
+summary {
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-p {
+    font-size: 16px;
+    margin-top: 1rem;
+
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 24px;
+    margin-bottom: 7rem;
+}
+
+details>summary:active {
+    transition: 1s;
+    transform: translateY(5px);
+}
+
+details>summary::after {
+    content: url('/Arrow - Down 3.svg');
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+details[open]>summary::after {
+    content: "-";
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: black;
+    color: white;
+    font-family: Gilroy-Regular;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.contact{
+    display: flex;
+    gap: 10rem;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h5{
+    margin-bottom: 0.4rem;
+    font-size: 18px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+span{
+    color: #1b6f1b;
+}
+.logopans2{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: start;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 7rem;
+    align-items: center;
+    color: #1b6f1b;
+    font-family: Gilroy-Bold;
+    margin-top: -2rem;
+}
+.logo2 p{
+    font-size: 20px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+.social-icons{
+    color: #1b6f1b;
+    font-size: 18px;
+}
+.vector1{
+    position: relative;
+    border: 1px solid black;
+    left: 32%;
+    position: relative;
+    top: -20%;
+    z-index: 1;
+}
+@media screen and (max-width:767px){
+    .bg-grid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 7rem;
+        padding-bottom: 6rem;
+    
+    }
+    .cta{
+        margin-top: 4rem;
+       
+     }
+     .cta h1{
+        color: #1b6f1b;
+        font-size: 38px;
+    }
+    .cta h3{
+        font-size: 16px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .about-us{
+        font-family: Gilroy-Medium;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .about-text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+        font-size: 16px;
+        font-family: Gilroy-Regular;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    } 
+    .your-voice{
+        text-align: center;
+        font-family: Gilroy-Medium ;
+        font-size: 26px;
+        margin-top: 3rem;
+        margin-bottom: 0.1rem;
+        padding-top: 3rem;
+    }
+    .msg-section{
+        background-color: #1b6f1b98;
+        /* background-color: #56a956f0; */
+        padding-bottom: 3rem;
+    }
+    .msg-box{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        margin: 1rem auto;
+        gap: 1.2rem;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .msg-box p{
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+        margin-bottom: -0.5rem;
+    }
+    input{
+       
+        border-bottom-width: 2px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 15px;
+    }
+    textarea{
+        border-width: 2px;
+        outline: none;
+        padding: 0.5rem;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        background-color: #1b6f1b1a;
+    }
+    .msg-box button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        background-color: #1b6f1b;
+        border-radius: 0.7rem;
+        border: none;
+        font-family:Gilroy-Medium ;
+        font-size: 16px;
+        color: white;
+    }
+    .your-message{
+        text-align: center;
+        margin-bottom: 2.5rem;
+        font-family: Gilroy-Regular;
+        font-size: 13px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    details {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin-left: 1rem;
+        margin-right: 1rem; */
+    }
+    .faq-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+ .pdf{
+    width: 20rem;
+    height: 15rem;
+ }
+    .pdf-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+      
+    
+    }
+    .pdf p{
+        font-size: 22px;
+    }
+    .pdf-section h4{
+        text-align: center;
+        font-family: Gilroy-Medium;
+        font-size: 26px;
+    }
+    .pdf-p2{
+        text-align: center;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        margin-top: 1rem;
+        margin-bottom: 3.5rem;
+    }
+  
+    .pdf-section{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left:1rem ;
+        margin-right:1rem ;
+    }
+    .footer{
+        padding: 2rem 1rem 2rem 1rem;
+        background-color: black;
+        color: white;
+        font-family: Gilroy-Regular;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .contact{
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .contacts2{
+        margin-top: 1.8rem;
+    }
+ } 
