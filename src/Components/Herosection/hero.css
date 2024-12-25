@@ -199,6 +199,10 @@ a{
     font-size: 36px;
     margin-top: 4rem;
 }
+.some{
+    font-family: Gilroy-Regular;
+    text-align: center;
+}
 details {
     border-radius: 10px;
     border: 2px solid black;
@@ -440,8 +444,8 @@ span{
         margin-right: 1rem;
     }
  .pdf{
-    width: 20rem;
-    height: 15rem;
+    width: 18rem;
+    height: 13rem;
  }
     .pdf-box{
         display: flex;

@@ -71,7 +71,7 @@ function Hero() {
             {/* section 5 */}
             <div className="faq-content" id='faq'>
                 <h4 className='faq'>FAQs</h4>
-                <p>Some of your questions are answered here</p>
+                <p className='some'>Some of your questions are answered here</p>
                 <details>
                     <summary>
                         How much is PANS due?
