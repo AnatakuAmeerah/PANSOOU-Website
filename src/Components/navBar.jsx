@@ -65,7 +65,7 @@ function Navbar() {
             <nav>
                 <div className='logo'>
                     <img src='./PANS OOU LOGO transparent-1 1 (3).svg' className="logopans" alt="Pans logo" />
-                    <p>PANSOOU</p>
+                    <p>PAMS</p>
                 </div>
                 <div className="nav-container-2" ref={navRef}>
                     <ul>

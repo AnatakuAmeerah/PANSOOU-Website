@@ -16,15 +16,15 @@ function Hero() {
             <section className="bg-grid" id='home'>
                 <div className='cta'>
                     <h1> AT PANSOOU THE WELL BEING OF PANSITES IS OUR FIRST <br /> PRIORITY</h1>
-                    <h3>PANSOOU is committed to providing a safe inclusive and supportive space  for Pansites.</h3>
+                    <h3>With PANSOOU Annonymous messaging Service, you can make your voice heard.</h3>
                 </div>
             </section>
 
             {/* section 2 */}
-            <section>
+            {/* <section>
                 <h4 className=' about-us'>ABOUT PANSOOU</h4>
                 <p className='about-text'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi quibusdam eveniet quisquam molestiae, exercitationem facilis porro illum dolorum sunt similique temporibus hic autem veritatis ipsum, quam vel, facere laborum!</p>
-            </section>
+            </section> */}
 
             {/* section 3 */}
             <section className='msg-section' id='complaint box'>
@@ -119,7 +119,7 @@ function Hero() {
                 <div className='footer-content'>
                     <div className='logo2'>
                         <img src='./PANS OOU LOGO transparent-1 1 (3).svg' className="logopans2" alt="Pans logo" />
-                        <p>PANSOOU</p>
+                        <p>PAMS</p>
                     </div>
                     <div className='contact'>
                         <div className=''>
@@ -196,9 +196,14 @@ function Hero() {
 
                         <div>
                             <h5>Our socials</h5>
-                            <div className='socials'><FaLinkedin className='social-icons' />LinkedIn</div>
-                            <div className='socials'> <FaSquareXTwitter className='social-icons' />Instagram</div>
-                            <div className='socials'><FaInstagramSquare className='social-icons' /> Twitter</div>
+                            <a href="http://ng.linkedin.com/in/pansoou-pansoou-69655133b" target="_blank" rel="noopener noreferrer">
+                                <div className='socials'><FaLinkedin className='social-icons' />LinkedIn</div>
+                            </a>
+                            <a href="http://www.instagram.com/pans_oou?igsh=NHplZWMydmdvcXNz&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                                <div className='socials'> <FaSquareXTwitter className='social-icons' />Instagram</div></a>
+                            <a href="http://x.com/PANSOOU" target="_blank" rel="noopener noreferrer">
+                                <div className='socials'><FaInstagramSquare className='social-icons' /> Twitter</div>
+                            </a>
                         </div>
                     </div>
                 </div>

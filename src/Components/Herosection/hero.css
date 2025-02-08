@@ -316,6 +316,10 @@ span{
     flex-direction: row;
     gap: 0.5rem;
     align-items: center;
+    color: white;
+}
+.socials:hover{
+    color:#1b6f1b;
 }
 .social-icons{
     color: #1b6f1b;

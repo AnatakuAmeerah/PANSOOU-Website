@@ -109,7 +109,7 @@ li{
 }
 @media screen and (max-width:767px){
    .logo p{
-    display: none;
+    
    }
     nav{
         display: flex;
