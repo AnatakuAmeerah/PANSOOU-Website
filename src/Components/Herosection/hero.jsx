@@ -4,6 +4,8 @@ import { HiExternalLink } from "react-icons/hi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
+import { PiLineVertical } from "react-icons/pi";
 import Contact from '../MessageBox/messageBox';
 // import SimpleSlider from '../MessageBox/messageBox';
 // import Responsive from '../MessageBox/messageBox';
@@ -16,7 +18,7 @@ function Hero() {
             <section className="bg-grid" id='home'>
                 <div className='cta'>
                     <h1> AT PANSOOU THE WELL BEING OF PANSITES IS OUR FIRST <br /> PRIORITY</h1>
-                    <h3>With PANSOOU Annonymous messaging Service, you can make your voice heard.</h3>
+                    <h3>With PANSOOU Annonymous Messaging Service, you can make your voice heard.</h3>
                 </div>
             </section>
 
@@ -80,20 +82,20 @@ function Hero() {
                         Pans due is 6000 for 100L , 4,500 for 200L, 4000 for 300L, 3,500 for 400L and 3000 for 500L.
                     </p>
                 </details>
-                <details>
+                {/* <details>
                     <summary>
                         How does the PANSOOU dress code work?
                     </summary>
                     <p className="summary-p">
-
+                     Coperate shirt, shoes and pants fror guys
                     </p>
-                </details>
+                </details> */}
                 <details>
                     <summary>
                         Who is the dean of the faculty of pharmacy?
                     </summary>
                     <p className="summary-p">
-                        The dean of the faculty of pharmacy is Prof. Adebayo Lamikanra.
+                        The dean of the faculty of pharmacy is Prof. L.S Kazeem.
                     </p>
                 </details>
                 <details>
@@ -207,6 +209,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
+                <footer>Copyright 2025 <FaRegCopyright/>PANSOOU <PiLineVertical/>  Powered by Dev Ameerah </footer>
             </section>
         </>
     )

@@ -66,7 +66,7 @@ const Contact = () => {
       <input
         type="text"
         value={matric}
-        onChange={(e) => setMessage(e.target.value)}
+        onChange={(e) => setMatric(e.target.value)}
       />
       <p> Your message</p>
       <textarea rows={8} value={message} placeholder='write your message here' onChange={(e) => setMessage(e.target.value)}>
