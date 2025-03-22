@@ -148,7 +148,7 @@ function Hero() {
                                     <p>08152520047</p>
                                 </div>
                                 <div>
-                                    <p>Osatimehin Woleoluwa</p>
+                                    <p>Osatimehin Woleola</p>
                                     <span>FINANCIAL SECRETARY</span>
                                     <p>08135489223</p>
                                 </div>
